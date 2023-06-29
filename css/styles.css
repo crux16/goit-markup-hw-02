@@ -8,7 +8,7 @@
     --theme-color: #2E2F42;
 }
 
-/* «C1» There are no global element styles except for <body> */
+
 body {
     font-size: 16px;
     font-family: 'roboto', sans-serif;
@@ -16,9 +16,6 @@ body {
     color: var(--default-color);
     line-height: 1.2;
 }
-/* ENDS HERE*/
-
-/* Css Classes and font-styling*/
 .top-line{
     background-color: var(--secondary-color);
 }
@@ -40,6 +37,9 @@ body {
     color: var(--default-color);
     text-transform: capitalize;
     font-style: 500;
+}
+.contact {
+    font-weight: normal;
 }
 .text:hover,
 .text:focus,
