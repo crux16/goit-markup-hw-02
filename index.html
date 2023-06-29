@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- CSS Style link -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- «B13» All fonts and their variations are linked from Google Fonts Services -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <title>My Homework #2</title>
+</head>
+<body>
+    <!-- This is the header tag that wraps the navigation options, web logo and  contacts info as well -->
+    <header class="top-line">
+        <!-- This is the LOGO usually used in image or text as well, clickable for homepage only  -->
+        <a href="./index.html" class="logo">webstudio</a>    
+        <!-- Nav tag as well known as Navigation wrapper -->
+        <nav>
+            <!-- This is navigation list or option is resposible for exploring the webpage -->
+            <ul class="menu">
+                <li><a href="./index.html" class="nav active">Studio</a></li><!-- class Active will be highlighted the current page-->
+                <li><a href="./portfolio.html" class="nav">Portfolio</a></li>
+                <li><a href="./" class="nav">Contacts</a></li><!-- Contact will be in default link -->
+            </ul>
+        </nav>
+        <!-- 
+            This the Contact links, mostly in the rightside of navigation, reponsible for 
+            contacting email, telephone number, mobile number and 
+            social media links(fb,twitter,instagram,etc) 
+        -->
+        <ul class="menu">
+            <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+            <li><a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a></li>
+        </ul>
+    </header>
+    <!-- this is the Main tag that wraps the content of the webpage. -->
+    <main>
+        <!-- The main topic and content of the page -->
+        <section class="hero-image">
+            <!-- This is the heading 1 tag only use once. -->
+            <h1>
+                Effective Solutions <br />
+                for Your Business
+            </h1>
+            <!-- This is the button tag. It has many action event for e.g. submitting your username and password-->
+            <button type="button" class="button">Order Service</button>
+        </section>
+        <section>
+            <!-- Section 1 of the content-->
+            <ul class="section">
+                <li>
+                    <h3>Strategy</h3>
+                    <p class="feature">
+                        Our goal is to identify the business<br />
+                        problem to walk away with the perfect<br />
+                        and creative solution. 
+                    </p>    
+                </li>
+                <li>
+                    <h3>Punctuality</h3>
+                    <p class="feature">
+                        Bring the key message to the brand's<br />
+                        audience for the best price within the<br />
+                        shortest possible time.
+                    </p>
+                </li>
+                <li>
+                    <h3>Diligence</h3>
+                    <p class="feature">
+                        Research and confirm brands that present<br />
+                        the strongest digital growth opportunities<br />
+                        and minimize risk.
+                    </p>
+                </li>
+                <li>
+                    <h3>Technologies</h3>
+                    <p class="feature">
+                        Design practice focused on digital experiences.<br />
+                        We bring forth a deep passion for problem-solving.<br />
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <ul class="section">
+                <li>
+                    <h2>What Are We Doing</h2>
+                    <!-- This is list of images,All image are stored in root folder /images -->
+                    <ul class="card">
+                        <li>
+                            <img src="images/01monitor.jpg" alt="Monitor" width="360" />
+                        </li>
+                        <li>
+                            <img src="images/02mobile.jpg" alt="Mobile" width="360" />
+                        </li>
+                        <li>
+                            <img src="images/03mobileandlaptop.jpg" alt="Both" width="360"  />
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <ul class="section">
+                <li>
+                    <ul class="team-card">
+                        <h2>Our Team</h2>
+                        <li>
+                                <img src="./images/04MarkGuerrero.jpg" alt="Mark's Photo" width="264">
+                                <h3>Mark Guerrero</h3>
+                                <p class="card-content">
+                                    Product Designer
+                                </p>
+                        </li>
+                        <li>
+                                <img src="./images/05TomFord.jpg" alt="Tom's Photo" width="264" />
+                                <h3>Tom Ford</h3>
+                                <p class="card-content">
+                                    Frontend Developer
+                                </p>
+                        </li>
+                        <li>
+                                <img src="./images/06CamilaGarcia.jpg" alt="Camila's Photo" width="264" />
+                                <h3>Camila Garcia</h3>
+                                <p class="card-content">
+                                    Marketing
+                                </p>
+                        </li>
+                        <li>
+                                <img src="./images/07DanielWilson.jpg" alt="Daniel's Photo" width="264" />
+                                <h3>Daniel Wilson</h3>
+                                <p class="card-content">
+                                    UI Designer
+                                </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <!-- This is the footer tag that wraps the logo, contact info, costumer services, FAQ etc. -->
+    <footer class="footer">
+        <a href="./index.html" class="logo">webstudio</a><br>
+        <p class="text">Increase the flow of customers and <br />
+            sales for your business with digital <br /> 
+            marketing & growth solutions.
+        </p>
+    </footer>
+</body>
+</html>

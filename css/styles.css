@@ -1,0 +1,103 @@
+/*Declaration of Variables*/
+*:root {
+    --default-color : #2E2F42;
+    --secondary-color: #FFFFFF;
+    --third-color:#4D5AE5;
+    --fouth-color: #F4F4FD;
+    --fifth-color:#E7E9FC;
+    --theme-color: #2E2F42;
+}
+
+/* «C1» There are no global element styles except for <body> */
+body {
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    color: var(--default-color);
+    line-height: 1.2;
+}
+/* ENDS HERE*/
+
+/* Css Classes and font-styling*/
+.top-line{
+    background-color: var(--secondary-color);
+}
+.logo {
+    color: inherit;
+    font-family: 'Raleway', inherit, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.logo, 
+.nav, 
+.contact {
+    text-decoration: none;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.nav,
+.contact {
+    color: var(--default-color);
+    text-transform: capitalize;
+    font-style: 500;
+}
+.text:hover,
+.text:focus,
+.contact:hover,
+.contact:focus{
+    color: var(--fifth-color);
+}
+
+.hero-image {
+    background-color: var(--theme-color);
+    color: var(--secondary-color);
+}
+.section{
+    list-style-type: none;
+}
+.feature {
+    font-weight: 400;
+}
+.button,
+.filter-btn{
+    cursor: pointer;
+}
+.button{
+    color: var(--secondary-color);
+    background-color: var(--third-color);
+}
+.filter-btn{
+    color: var(--third-color);
+    background-color: var(--fifth-color);
+}
+.filter-btn:focus,
+.filter-btn:hover,
+.nav:focus,
+.nav:hover{
+    color: var(--secondary-color);
+    background-color: var(--third-color);
+}
+.menu, 
+.section, 
+.team-card, 
+.card, 
+.filters,
+.project-card,
+.row {
+    list-style-type: none;
+    padding: 0;
+}
+.card-content{
+    font-weight: normal;
+}
+.team-card{
+    background-color: var(--fouth-color);
+}
+.active {
+    color: var(--secondary-color);
+    background-color: var(--third-color);
+}
+.footer{
+    background-color: var(--theme-color);
+    color: var(--secondary-color);
+}

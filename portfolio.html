@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- CSS Style link -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- «B13» All fonts and their variations are linked from Google Fonts Services -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <title>My Homework #2</title>
+</head>
+
+<body>
+    <!-- This is the header tag that wraps the navigation options, web logo and  contacts info as well -->
+    <header class="top-line">
+        <!-- This is the LOGO usually used in image or text as well, clickable for homepage only  -->
+        <a href="./index.html" class="logo">webstudio</a>
+        <!-- Nav tag as well known as Navigation wrapper -->
+        <nav>
+            <!-- This is navigation list or option is resposible for exploring the webpage -->
+            <ul class="menu">
+                <li><a href="./index.html" class="nav">Studio</a></li>
+                <li><a href="./portfolio.html" class="nav active">Portfolio</a></li><!-- class Active will be highlighted the current page-->
+                <li><a href="./" class="nav">Contacts</a></li><!-- Contact will be in default link -->
+            </ul>
+        </nav>
+        <!-- 
+                This the Contact links, mostly in the rightside of navigation, reponsible for 
+                contacting email, telephone number, mobile number and 
+                social media links(fb,twitter,instagram,etc) 
+            -->
+        <ul class="menu">
+            <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+            <li><a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a></li>
+        </ul>
+    </header>
+    <!-- this is the Main tag that wraps the content of the webpage. -->
+    <main>
+        <section>
+            <!-- function button to filter the classification of data -->
+            <ul class="filters">
+                <li>
+                    <button type="Button" class="filter-btn active">
+                        All
+                    </button>
+                </li><li>
+                    <button type="Button" class="filter-btn">
+                        Web Site
+                    </button>
+                </li><li>
+                    <button type="Button" class="filter-btn">
+                        App
+                    </button>
+                </li><li>
+                    <button type="Button" class="filter-btn">
+                        Design
+                    </button>
+                </li><li>
+                    <button type="Button" class="filter-btn">
+                        Marketing
+                    </button>
+                </li>
+            </ul>
+            <ul class="project-card">
+                <li>
+                <!-- listed data from database -->
+                    <ul class="row">
+                        <li>
+                            <img src="./images/filtered-img/app-1.jpg" alt="Banking App Interface Concept">
+                            <h3>Banking App Interface Concept</h3>
+                            <p class="card-content">
+                                App
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./images/filtered-img/marketing-1.jpg" alt="Cashless Payment">
+                            <h3>Cashless Payment</h3>
+                            <p class="card-content">
+                                Marketing
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./images/filtered-img/app-2.jpg" alt="Meditation App">
+                            <h3>Meditation App</h3>
+                            <p class="card-content">
+                                App
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="row">
+                        <li>
+                            <img src="./images/filtered-img/marketing-2.jpg" alt="Taxi Service">
+                            <h3>Taxi Service</h3>
+                            <p class="card-content">
+                                Marketing
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./images/filtered-img/design-1.jpg" alt="Screen Illustrations">
+                            <h3>Screen Illustrations</h3>
+                            <p class="card-content">
+                                Design
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./images/filtered-img/marketing-3.jpg" alt="Online Courses">
+                            <h3>Online Courses</h3>
+                            <p class="card-content">
+                                Marketing
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="row">
+                        <li>
+                            <img src="./images/filtered-img/design-2.jpg" alt="Instagram Stories Concept">
+                            <h3>Instagram Stories Concept</h3>
+                            <p class="card-content">
+                                Design
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./images/filtered-img/web-site-1.jpg" alt="Organic Food">
+                            <h3>Organic Food</h3>
+                            <p class="card-content">
+                                Web Site
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./images/filtered-img/web-site-2.jpg" alt="Fresh Coffee">
+                            <h3>Fresh Coffee</h3>
+                            <p class="card-content">
+                                Web Site
+                            </p>
+                        </li>
+                    </ul>    
+                </li>
+            </ul>
+        </section>
+    </main>
+    <!-- This is the footer tag that wraps the logo, contact info, costumer services, FAQ etc. -->
+    <footer class="footer">
+        <a href="./index.html" class="logo">webstudio</a><br />
+        <p class="text">Increase the flow of customers and <br />
+            sales for your business with digital <br />
+            marketing & growth solutions.
+        </p>
+    </footer>
+</body>
+
+</html>
