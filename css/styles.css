@@ -11,7 +11,7 @@
 
 body {
     font-size: 16px;
-    font-family: 'roboto', sans-serif;
+    font-family: roboto;
     font-weight: 700;
     color: var(--default-color);
     line-height: 1.2;
@@ -21,7 +21,7 @@ body {
 }
 .logo {
     color: inherit;
-    font-family: 'Raleway', inherit, sans-serif;
+    font-family: Raleway;
     font-weight: 800;
     text-transform: uppercase;
 }
