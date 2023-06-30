@@ -35,11 +35,7 @@ body {
 .nav,
 .contact {
     color: var(--default-color);
-    text-transform: capitalize;
-    font-style: 500;
-}
-.contact {
-    font-weight: normal;
+    font-weight: 500;
 }
 .text:hover,
 .text:focus,
