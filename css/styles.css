@@ -5,6 +5,7 @@
     --third-color:#4D5AE5;
     --fouth-color: #F4F4FD;
     --fifth-color:#E7E9FC;
+    --sixth-color:#404BBF;
     --theme-color: #2E2F42;
 }
 
@@ -12,17 +13,19 @@
 body {
     font-size: 16px;
     font-family: 'roboto', sans-serif;
-    font-weight: 700;
     color: var(--default-color);
-    line-height: 1.2;
+    font-weight: 400;
+    line-height: 24px;
 }
 .top-line{
     background-color: var(--secondary-color);
 }
 .logo {
     color: inherit;
-    font-family: 'Raleway', inherit, sans-serif;
+    font-size: 18px;
+    font-family: Raleway;
     font-weight: 800;
+    line-height: 1.21;
     text-transform: uppercase;
 }
 .logo, 
@@ -35,31 +38,32 @@ body {
 .nav,
 .contact {
     color: var(--default-color);
-    text-transform: capitalize;
-    font-style: 500;
-}
-.contact {
-    font-weight: normal;
-}
-.text:hover,
-.text:focus,
-.contact:hover,
-.contact:focus{
-    color: var(--fifth-color);
+    font-weight: 500;
 }
 
 .hero-image {
     background-color: var(--theme-color);
     color: var(--secondary-color);
 }
+.hero-image h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.25;    
+}
 .section{
     list-style-type: none;
+}
+.project-card h3{
+    font-weight: 500;
 }
 .feature {
     font-weight: 400;
 }
 .button,
 .filter-btn{
+    font-weight: 500;
+    line-height: 1.5;
+    border: 0;
     cursor: pointer;
 }
 .button{
@@ -70,12 +74,20 @@ body {
     color: var(--third-color);
     background-color: var(--fifth-color);
 }
-.filter-btn:focus,
-.filter-btn:hover,
+.button:focus,
+.filter-btn:focus{
+    color: var(--secondary-color, #FFFFFF);
+    background-color: var(--third-color, #4D5AE5);
+    text-shadow: 1px 1px 1px 13px var(--secondary-color);
+}
+.button:hover,
+.filter-btn:hover{
+    color: var(--secondary-color, #FFFFFF);
+    background-color: var(--sixth-color, #404BBF);
+}
 .nav:focus,
 .nav:hover{
-    color: var(--secondary-color);
-    background-color: var(--third-color);
+    color: var(--sixth-color);
 }
 .menu, 
 .section, 
@@ -93,7 +105,12 @@ body {
 .team-card{
     background-color: var(--fouth-color);
 }
-.active {
+.contact:hover,
+.contact:focus,
+.nav.active{
+    color: var(--sixth-color);
+}
+.filter-btn.active {
     color: var(--secondary-color);
     background-color: var(--third-color);
 }
