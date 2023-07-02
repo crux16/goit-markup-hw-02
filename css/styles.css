@@ -6,6 +6,7 @@
     --fouth-color: #F4F4FD;
     --fifth-color:#E7E9FC;
     --sixth-color:#404BBF;
+    --seventh-color:#434455;
     --theme-color: #2E2F42;
 }
 
@@ -13,7 +14,7 @@
 body {
     font-size: 16px;
     font-family: 'roboto', sans-serif;
-    color: var(--default-color);
+    color: var(--default-color,#2E2F42);
     font-weight: 400;
     line-height: 24px;
 }
@@ -28,6 +29,9 @@ body {
     line-height: 1.21;
     text-transform: uppercase;
 }
+.logo-colored {
+    color: var(--third-color);
+}
 .logo, 
 .nav, 
 .contact {
@@ -40,17 +44,24 @@ body {
     color: var(--default-color);
     font-weight: 500;
 }
-
 .hero-image {
     background-color: var(--theme-color);
     color: var(--secondary-color);
 }
-.hero-image h1{
+.hero-top-banner{
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.25;    
+    line-height: 60px;
 }
-.section{
+.what-are-we-doing,
+.team-card-our-team{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.mission-and-vision,
+.team-card{
     list-style-type: none;
 }
 .project-card h3{
@@ -72,7 +83,8 @@ body {
 }
 .filter-btn{
     color: var(--third-color);
-    background-color: var(--fifth-color);
+    background-color: var(--fouth-color);
+    border: 1px solid var(--fifth-color);
 }
 .button:focus,
 .filter-btn:focus{
@@ -90,8 +102,9 @@ body {
     color: var(--sixth-color);
 }
 .menu, 
-.section, 
-.team-card, 
+.mission-and-vision, 
+.team-card,
+.wawd-card,
 .card, 
 .filters,
 .project-card,
@@ -100,7 +113,7 @@ body {
     padding: 0;
 }
 .card-content{
-    font-weight: normal;
+    color:var(--seventh-color);
 }
 .team-card{
     background-color: var(--fouth-color);
@@ -117,4 +130,7 @@ body {
 .footer{
     background-color: var(--theme-color);
     color: var(--secondary-color);
+}
+.footer-text:hover{
+    color: var(--third-color);
 }
