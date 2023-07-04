@@ -15,8 +15,10 @@ body {
     font-size: 16px;
     font-family: 'roboto', sans-serif;
     color: var(--default-color,#2E2F42);
+    font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    letter-spacing: 0.32px;
 }
 .top-line{
     background-color: var(--secondary-color);
@@ -24,9 +26,10 @@ body {
 .logo {
     color: inherit;
     font-size: 18px;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    line-height: 1.21;
+    line-height: 21px;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 .logo-colored {
@@ -39,10 +42,21 @@ body {
     line-height: 1.2;
     cursor: pointer;
 }
-.nav,
-.contact {
+.nav{
     color: var(--default-color);
     font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.contact{
+    color: var(--default-color);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.unstyle-list{
+    list-style-type: none;
+    padding-left: 0;
 }
 .hero-image {
     background-color: var(--theme-color);
@@ -52,47 +66,56 @@ body {
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
+    letter-spacing: 1.12px;
 }
-.what-are-we-doing,
-.team-card-our-team{
+.feat-title, .card-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.feat-desc {
+    color:var(--seventh-color);
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.section-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
+    letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.mission-and-vision,
-.team-card{
-    list-style-type: none;
+.card-content {
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
-.project-card h3{
-    font-weight: 500;
-}
-.feature {
-    font-weight: 400;
-}
-.button,
+.btn-primary,
 .filter-btn{
     font-weight: 500;
     line-height: 1.5;
+    border-radius: 4px;
+    border: 1px solid var(--fifth-color);
     border: 0;
     cursor: pointer;
 }
-.button{
+.btn-primary{
     color: var(--secondary-color);
     background-color: var(--third-color);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .filter-btn{
     color: var(--third-color);
     background-color: var(--fouth-color);
     border: 1px solid var(--fifth-color);
 }
-.button:focus,
-.filter-btn:focus{
-    color: var(--secondary-color, #FFFFFF);
-    background-color: var(--third-color, #4D5AE5);
-    text-shadow: 1px 1px 1px 13px var(--secondary-color);
-}
-.button:hover,
+.btn-primary:focus,
+.filter-btn:focus,
+.btn-primary:hover,
 .filter-btn:hover{
     color: var(--secondary-color, #FFFFFF);
     background-color: var(--sixth-color, #404BBF);
@@ -101,23 +124,12 @@ body {
 .nav:hover{
     color: var(--sixth-color);
 }
-.menu, 
-.mission-and-vision, 
-.team-card,
-.wawd-card,
-.card, 
-.filters,
-.project-card,
-.row {
-    list-style-type: none;
-    padding: 0;
-}
 .card-content{
     color:var(--seventh-color);
 }
 .team-card{
     background-color: var(--fouth-color);
-}
+}   
 .contact:hover,
 .contact:focus,
 .nav.active{
@@ -130,7 +142,4 @@ body {
 .footer{
     background-color: var(--theme-color);
     color: var(--secondary-color);
-}
-.footer-text:hover{
-    color: var(--third-color);
 }

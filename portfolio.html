@@ -15,12 +15,12 @@
 <body>
     <!-- This is the header tag that wraps the navigation options, web logo and  contacts info as well -->
     <header class="top-line">
-        <!-- This is the LOGO usually used in image or text as well, clickable for homepage only  -->
-        <a href="./index.html" class="logo"><span class="logo-colored">web</span>studio</a>
         <!-- Nav tag as well known as Navigation wrapper -->
         <nav>
+            <!-- This is the LOGO usually used in image or text as well, clickable for homepage only  -->
+            <a href="./index.html" class="logo"><span class="logo-colored">web</span>studio</a>
             <!-- This is navigation list or option is resposible for exploring the webpage -->
-            <ul class="menu">
+            <ul class="menu-nav unstyle-list">
                 <li><a href="./index.html" class="nav">Studio</a></li>
                 <li><a href="./portfolio.html" class="nav active">Portfolio</a></li><!-- class Active will be highlighted the current page-->
                 <li><a href="./" class="nav">Contacts</a></li><!-- Contact will be in default link -->
@@ -31,7 +31,7 @@
                 contacting email, telephone number, mobile number and 
                 social media links(fb,twitter,instagram,etc) 
             -->
-        <ul class="menu">
+        <ul class="menu-contact unstyle-list">
             <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
             <li><a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a></li>
         </ul>
@@ -40,7 +40,7 @@
     <main>
         <section>
             <!-- function button to filter the classification of data -->
-            <ul class="filters">
+            <ul class="filters unstyle-list">
                 <li>
                     <button type="button" class="filter-btn active">
                         All
@@ -63,66 +63,66 @@
                     </button>
                 </li>
             </ul>
-            <ul class="project-card">
+            <ul class="project-card unstyle-list">
                 <li>
                     <img src="./images/filtered-img/app-1.jpg" alt="Banking App Interface Concept" width="360">
-                    <h3>Banking App Interface Concept</h3>
+                    <h3 class="card-title">Banking App Interface Concept</h3>
                     <p class="card-content">
                         App
                     </p>
                 </li>
                 <li>
                     <img src="./images/filtered-img/marketing-1.jpg" alt="Cashless Payment" width="360">
-                    <h3>Cashless Payment</h3>
+                    <h3 class="card-title">Cashless Payment</h3>
                     <p class="card-content">
                         Marketing
                     </p>
                 </li>
                 <li>
                     <img src="./images/filtered-img/app-2.jpg" alt="Meditation App" width="360">
-                    <h3>Meditation App</h3>
+                    <h3 class="card-title">Meditation App</h3>
                     <p class="card-content">
                         App
                     </p>
                 </li>
                 <li>
                     <img src="./images/filtered-img/marketing-2.jpg" alt="Taxi Service" width="360">
-                    <h3>Taxi Service</h3>
+                    <h3 class="card-title">Taxi Service</h3>
                     <p class="card-content">
                         Marketing
                     </p>
                 </li>
                 <li>
                     <img src="./images/filtered-img/design-1.jpg" alt="Screen Illustrations" width="360">
-                    <h3>Screen Illustrations</h3>
+                    <h3 class="card-title">Screen Illustrations</h3>
                     <p class="card-content">
                         Design
                     </p>
                 </li>
                 <li>
                     <img src="./images/filtered-img/marketing-3.jpg" alt="Online Courses" width="360">
-                    <h3>Online Courses</h3>
+                    <h3 class="card-title">Online Courses</h3>
                     <p class="card-content">
                         Marketing
                     </p>
                 </li>
                 <li>
                     <img src="./images/filtered-img/design-2.jpg" alt="Instagram Stories Concept" width="360">
-                    <h3>Instagram Stories Concept</h3>
+                    <h3 class="card-title">Instagram Stories Concept</h3>
                     <p class="card-content">
                         Design
                     </p>
                 </li>
                 <li>
                     <img src="./images/filtered-img/web-site-1.jpg" alt="Organic Food" width="360">
-                    <h3>Organic Food</h3>
+                    <h3 class="card-title">Organic Food</h3>
                     <p class="card-content">
                         Web Site
                     </p>
                 </li>
                 <li>
                     <img src="./images/filtered-img/web-site-2.jpg" alt="Fresh Coffee">
-                    <h3>Fresh Coffee</h3>
+                    <h3 class="card-title">Fresh Coffee</h3>
                     <p class="card-content">
                         Web Site                
                     </p>
@@ -133,7 +133,7 @@
     <!-- This is the footer tag that wraps the logo, contact info, costumer services, FAQ etc. -->
     <footer class="footer">
         <a href="./index.html" class="logo"><span class="logo-colored">web</span>studio</a><br />
-        <p class="footer-text">Increase the flow of customers and <br />
+        <p>Increase the flow of customers and <br />
             sales for your business with digital <br />
             marketing & growth solutions.
         </p>
