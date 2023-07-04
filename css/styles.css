@@ -20,6 +20,8 @@ body {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+
+/* Classes */
 .top-line{
     background-color: var(--secondary-color);
 }
@@ -111,37 +113,39 @@ body {
     background-color: var(--fouth-color);
     border: 1px solid var(--fifth-color);
 }
-.btn-primary:hover,
-.filter-btn:hover{
-    color: var(--secondary-color, #FFFFFF);
-    background-color: var(--sixth-color, #404BBF);
-    cursor: pointer;
-}
-.btn-primary:focus,
-.filter-btn:focus{
-    color: var(--secondary-color, #FFFFFF);
-    background-color: var(--third-color);
-}
-.nav:focus,
-.nav:hover{
-    color: var(--sixth-color);
-}
 .card-content{
     color:var(--seventh-color);
 }
-.team-card{
+.section-team{
     background-color: var(--fouth-color);
-}   
-.contact:hover,
-.contact:focus,
-.nav.active{
-    color: var(--sixth-color);
-}
-.filter-btn.active {
-    color: var(--secondary-color);
-    background-color: var(--third-color);
 }
 .footer{
     background-color: var(--theme-color);
     color: var(--secondary-color);
+}
+
+/* pseudo-elements */
+.menu-nav .nav:focus,
+.menu-nav .nav:hover{
+    color: var(--sixth-color);
+}
+.menu-contact .contact:hover,
+.menu-contact .contact:focus,
+.menu-nav .nav.active{
+    color: var(--sixth-color);
+}
+.hero-image .btn-primary:hover,
+.filters .filter-btn:hover{
+    color: var(--secondary-color, #FFFFFF);
+    background-color: var(--sixth-color, #404BBF);
+    cursor: pointer;
+}
+.hero-image .btn-primary:focus,
+.filters .filter-btn:focus{
+    color: var(--secondary-color, #FFFFFF);
+    background-color: var(--third-color);
+}
+.filters .filter-btn.active {
+    color: var(--secondary-color);
+    background-color: var(--third-color);
 }
