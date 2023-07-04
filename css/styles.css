@@ -111,13 +111,16 @@ body {
     background-color: var(--fouth-color);
     border: 1px solid var(--fifth-color);
 }
-.btn-primary:focus,
-.filter-btn:focus,
 .btn-primary:hover,
 .filter-btn:hover{
     color: var(--secondary-color, #FFFFFF);
     background-color: var(--sixth-color, #404BBF);
     cursor: pointer;
+}
+.btn-primary:focus,
+.filter-btn:focus{
+    color: var(--secondary-color, #FFFFFF);
+    background-color: var(--third-color);
 }
 .nav:focus,
 .nav:hover{
